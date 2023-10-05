@@ -42,7 +42,7 @@ void morse_I(){
 void morse_M(){
  morseBlink(3);
  morseBlink(3);
- delay(dotDuration*2)
+ delay(dotDuration*2);
 }
 
 
