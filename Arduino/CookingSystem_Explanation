@@ -1,6 +1,6 @@
 Explanations of CookingSystems
 
-CookingSystem_1)
+CookingSystem_1) this program works with serial, there's a readString and it makes that if you write "cook" the program will automatically write "has escrito: cook" and later will write in two different lines "we are deciding" and "we are cooking"
 CookingSystem_2)
 CookingSystem_2_My_Own_Recipee)
 CookingSystem_4)
