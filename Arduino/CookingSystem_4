@@ -1,4 +1,5 @@
 //coking system 4
+//this program is made by one classmate
 //receipt: 1 masa pizza, 2 queso, 1 jamon dulce, oil, 2 tomate
 int masaPizza = 0;
 int queso = 0;
