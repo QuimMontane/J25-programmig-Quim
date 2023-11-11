@@ -1,6 +1,6 @@
 Explanations of CookingSystems
 
 CookingSystem_1) this program works with serial, there's a readString and it makes that if you write "cook" the program will automatically write "has escrito: cook" and later will write in two different lines "we are deciding" and "we are cooking"
-CookingSystem_2)
-CookingSystem_2_My_Own_Recipee)
+CookingSystem_2) this program is similar as the one before, but there's a recipee, a spanish omelette. Firstly, you will need to write "potato" and the program will automaticaly give you a potato, so now you can do the recipee. Secondly, you will write "cook" and the program will automaticaly write "has escrito: cook" and after it will write "we are deciding", the program will check if there's all the necessary things to make the spanish omelette, and if there are, it will write" we are cooking" and "you have a Spanish Omelette"
+CookingSystem_2_My_Own_Recipee) this program is the same as the one before, but instead of a spanish omelette, is a sushi roll. So firtly, you will need to write "", and you will get one of it, later you will write
 CookingSystem_4)
