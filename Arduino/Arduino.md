@@ -51,3 +51,5 @@ The decide function checks the input string. If it's "cook," it calls the cook f
 prepareSalad function. And substracts the ingredients that have been used. The "show" option in the input is added to display the current 
 
 quantities of all ingredients.
+
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/CookingSystem_Explanation)
