@@ -1,6 +1,6 @@
 # EXPLANATIONS:
 
-# Explanations of Blink_Variations: [code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Blink_Explanation)
+# Explanations of Blink_Variations: 
 
 **Blink_Variation_01**: Turns an LED on for one second, then off for one second, repeatedly.
 
@@ -10,11 +10,11 @@
 
 **Blink_Variation_03-Faster**: The same as in variation 3, but every time that it loops, it goes faster.
 
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Blink_Explanation)
 
 
 
-
-# Explanations of CookingSystems: [code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/CookingSystem_Explanation)
+# Explanations of CookingSystems: 
 
 **CookingSystem_1)** this program works with serial, there's a readString and it makes that if you write "cook" the program will 
 automatically write "has escrito: cook" and later will write in two different lines "we are deciding" and "we are cooking"
@@ -39,6 +39,7 @@ The decide function checks the input string. If it's "cook," it calls the cook f
 prepareSalad function. And substracts the ingredients that have been used. The "show" option in the input is added to display the current 
 quantities of all ingredients.
 
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/CookingSystem_Explanation)
 
 
 # Explanations of FunctionalProgramms:
@@ -52,5 +53,7 @@ bascilally, you put the number of dots or slashes each letter have, and the prog
 and with the delay works almost the same, you put "delay(dotDuration*(the number of spaces you want))".
 
 **FunctionalProgramming_5)** Is the same as the FunctionalProgramming_2, but is with serial.
+
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Functionalprogramming_Explanations)
 
 
