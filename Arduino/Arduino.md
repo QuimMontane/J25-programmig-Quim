@@ -9,3 +9,5 @@
 **Blink_Variation_03**: Writes the name QUIM in morse code.
 
 **Blink_Variation_03-Faster**: The same as in variation 3, but every time that it loops, it goes faster.
+
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Blink_Explanation)
