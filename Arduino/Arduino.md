@@ -1,3 +1,5 @@
+# EXPLANATIONS:
+
 # Explanations of Blink_Variations:
 
 **Blink_Variation_01**: Turns an LED on for one second, then off for one second, repeatedly.
