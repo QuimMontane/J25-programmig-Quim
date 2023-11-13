@@ -1,4 +1,6 @@
+---
 # EXPLANATIONS:
+---
 
 # Explanations of Blink_Variations: 
 
@@ -13,8 +15,9 @@
 [code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Blink_Explanation)
 
 
-
+---
 # Explanations of CookingSystems: 
+---
 
 **CookingSystem_1:** this program works with serial, there's a readString and it makes that if you write "cook" the program will 
 automatically write "has escrito: cook" and later will write in two different lines "we are deciding" and "we are cooking"
@@ -41,8 +44,9 @@ quantities of all ingredients.
 
 [code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/CookingSystem_Explanation)
 
-
+---
 # Explanations of FunctionalProgramms:
+---
 
 **FunctionalProgramming_1:** Writes the name "QUIM" in morse code, the code is very extended, the loop is very large.
 
@@ -55,5 +59,11 @@ and with the delay works almost the same, you put "delay(dotDuration*(the number
 **FunctionalProgramming_5:** Is the same as the FunctionalProgramming_2, but is with serial.
 
 [code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Functionalprogramming_Explanations)
+
+---
+# Explanation of MySpecialMessage:
+---
+
+**MySpecialFunction**: This program works with serial, draws line by line a drawing of Fredy from Five Nights at Freddy's, there's 10 "\n" to clear the serial monitor.
 
 
