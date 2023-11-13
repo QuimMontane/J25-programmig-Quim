@@ -1,6 +1,6 @@
 # EXPLANATIONS:
 
-# Explanations of Blink_Variations:
+# Explanations of Blink_Variations: [code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Blink_Explanation)
 
 **Blink_Variation_01**: Turns an LED on for one second, then off for one second, repeatedly.
 
@@ -10,11 +10,11 @@
 
 **Blink_Variation_03-Faster**: The same as in variation 3, but every time that it loops, it goes faster.
 
-(https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Blink_Explanation)
 
 
 
-# Explanations of CookingSystems
+
+# Explanations of CookingSystems: [code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/CookingSystem_Explanation)
 
 **CookingSystem_1)** this program works with serial, there's a readString and it makes that if you write "cook" the program will 
 automatically write "has escrito: cook" and later will write in two different lines "we are deciding" and "we are cooking"
@@ -39,4 +39,4 @@ The decide function checks the input string. If it's "cook," it calls the cook f
 prepareSalad function. And substracts the ingredients that have been used. The "show" option in the input is added to display the current 
 quantities of all ingredients.
 
-(https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/CookingSystem_Explanation)
+
