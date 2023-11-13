@@ -64,7 +64,6 @@ and with the delay works almost the same, you put "delay(dotDuration*(the number
 # Explanation of MySpecialMessage:
 ---
 
-**MySpecialFunction**: This program works with serial, draws line by line a drawing of Fredy from Five Nights at Freddy's, there's 10 
-"\n" to clear the serial monitor.
+**MySpecialFunction**: This program works with serial, the objective is to print the charaters line by line until creating a 2D drawing, in my case, I wanted to draw a Freddy from Five Nights at Freddy's, it will print it indefinitely, but everytime it prints it, there will be a delay of 2000 miliseconds, there's 10 "\n" to clear the serial monitor.
 
 [code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/MySpecialMessage_Explanation)
