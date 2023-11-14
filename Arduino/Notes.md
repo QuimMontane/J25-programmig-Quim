@@ -1,5 +1,6 @@
 ---
 # 📖📚First Term Programming📝
+![mono-trading](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/d0f156a7-6019-4d57-b9f2-a6f86a1bfe42)
 ---
 
 # Coding Vocabulary📜
@@ -122,7 +123,6 @@ Visual Studio is used to program in C++. It’s an industry-wide platform with m
 While loops are set up just like if statements. They check for a condition and run the code in them until the condition is no longer true. A while loop will run forever (until the 
 condition is false).
 
-![mono-trading](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/d0f156a7-6019-4d57-b9f2-a6f86a1bfe42)
 
 
 
