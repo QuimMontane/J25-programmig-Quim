@@ -2,7 +2,7 @@
 # 📖📚First Term Programming📝
 ![mono-trading](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/d0f156a7-6019-4d57-b9f2-a6f86a1bfe42)
 ---
-
+---
 ## Coding Vocabulary📜
 ---
 👍🏼👍🏼Here are some popular coding terms and words to become familiar with:👍🏼👍🏼
