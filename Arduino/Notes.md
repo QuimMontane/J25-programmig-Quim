@@ -222,7 +222,9 @@ Mandatory in some languages (e.g., C++)
 ## 🎁🧨Common Variables in C++👔🥽
 ---
 
+
 **Building Blocks:**
+
 º)  Object
 
 º)  Numbers: `int`, `long`, `8int`, `8u int`, `float`
@@ -240,12 +242,18 @@ Mandatory in some languages (e.g., C++)
 ---
 
 º)  `A = A + 1`: Equivalent to `A++`.
+
 º)  `A++`: Same as the statement above.
+
 º)  `B = B - 1`: Equivalent to `B--`.
+
 º)  `B--`: Same as the statement above.
 
+
 ### Naming Convention
+
 º) Variables cannot have spaces.
+
 º) Use camel case for variable names. Example: `minutesToGoHome`
 
 ![c6eb20a843d697b63d934047451b4712](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/cbd1ac4a-fb4e-42c9-afbf-8f6e30e79640)
@@ -270,13 +278,17 @@ Mandatory in some languages (e.g., C++)
 # 📚Functions in programming📚
 ---
 
+
 ## Function Syntax in C++
+
 
 **Definition:** 
 return_type name(parameters)
 
+
 **Void Function:** 
 void nameOfTheFunction() { code }
+
 
 **No spaces** 
 allowed in the parameters.
@@ -288,13 +300,19 @@ nameOfTheFunction();
 morse_J(); //example
 ```
 
+
 ## Example of Functions:
+
 º) digitalWrite(int pin, 1 or 0)
+
 º) delay()
+
 º) pinMode(<pin>, <mode>)
+
 
 ## Important⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 We cannot define a function inside the definition of another function.
+
 
 ## Example of Setup and Loop Functions
 ```C++
@@ -313,8 +331,10 @@ void loop() {
 # 🌊Flow Control🌊
 ---
 
+
 ## ❌Booleans✅ 
 Booleans are variables that can be true or false.
+
 
 ## Operators of Comparison
 ```C++
@@ -325,6 +345,7 @@ if (condition) {
 }
 // Code executed in both cases
 ```
+
 ## Determining if the Condition is True
 We use a boolean. If the boolean value is true, the condition is true. If the boolean value is false, then the condition is not met.
 ```
@@ -334,12 +355,19 @@ goToMuseumPicasso();
 }
 else {goToDesignMuseum();}
 ```
+
 ## 🔔Types of notation🔔
+
 º) camelCase → Methods and variables
+
 º) PascalCase → Obejcts
+
 º) Kebab-case → URL
+
 º) Snake_case
+
 º) SCREAMING_SNAKE_CASE → Constants
+
 
 ## Nested If (Example)
 "If" that are inside other "If"
@@ -363,21 +391,34 @@ if (patatas) {
 ## Boolean Variable (bool)
 If the variable value is true, then we go inside the if. If the variable value is false, then we don’t go inside the if. If there is an else, we go inside the else.
 
+
 ## Else if
 Else if is an extra condition. Programming languages need to be consistent and univocal. That’s why we use = for assignment and == for comparison.
 
+
 ## Comparators
+
 º) == : Compare if same value
+
 º) != : Different value
+
 º) < : Lesser than
+
 º) <= : Lesser or equal than
+
 º) ">": Greater than
+
 º) ">=": Greater or equal than
 
+
 ## Combo Burger (Boolean Operators)
+
 º) &&: AND operator
+
 º) ||: OR operator
+
 º) !: NOT operator
+
 ```c++
 //eggsInTheFridge
 //potatoesInTheKitchen
@@ -414,9 +455,11 @@ If(TRdelivered && meanGrade >= 5 && allFinalTestPassed)
 ---
 
 ## Introduction
+
 In programming languages, scope defines the region of the program where a specific variable can be accessed or modified.
 
 ## Global Scope
+
 Variables declared outside any function or block have global scope. They can be accessed from any part of the program, including within functions and blocks.
 
 ```C++
@@ -427,6 +470,7 @@ void setup(){
 ```
 
 ## Local Scope
+
 Variables declared within a function or block have local scope. They are only accessible within that specific function or block.
 
 ```C++
@@ -438,6 +482,7 @@ void setup(){
 ```
 
 ## Function Scope
+
 Parameters and variables declared in a function have function scope. They are accessible only within the function where they are declared.
 
 ```C++
@@ -448,6 +493,7 @@ void exampleFunction(int parameter) {
 ```
 
 ## Block Scope
+
 Variables declared within a block of code (inside curly braces {}) have block scope. They are only accessible within that specific block.
 
 ```C++
@@ -471,9 +517,13 @@ int main() {
 ---
 
 ## Introduction
-In programming, a string is a sequence of characters. It is a fundamental data type used to represent text. Strings are commonly manipulated for tasks such as input/output, text processing, and data storage.
+
+In programming, a string is a sequence of characters. It is a fundamental data type used to represent text. Strings are commonly manipulated for tasks such as input/output, text 
+processing, and data storage.
+
 
 ## Declaration and Initialization
+
 ```C++
 // Declaration and initialization of strings
 std::string greeting = "Hello, ";
@@ -481,35 +531,41 @@ std::string name = "World!";
 ```
 
 ## Concatenation
+
 Strings can be combined using the + operator, a process known as concatenation.
 ```C++
 std::string message = greeting + name; // Results in "Hello, World!"
 ```
 
 ## String Length
+
 The length of a string can be obtained using the length() or size() member functions.
 ```C++
 int length = message.length(); // Length is 13
 ```
 
 ## Substrings
+
 Portions of a string can be extracted using the substr() function.
 ```C++
 std::string sub = message.substr(7, 5); // Extracts "World"
 ```
 
 ## String Comparison
+
 Strings can be compared using relational operators (==, !=, <, >, <=, >=).
 ```C++
 bool isEqual = (greeting == name); // Evaluates to false
 ```
 
 ## String Manipulation
+
 Various functions are available for manipulating strings, such as finding substrings, replacing characters, and converting case.
 ```C++
 // Example: Converting to uppercase
 std::transform(message.begin(), message.end(), message.begin(), ::toupper);
 ```
+
 ---
 # THE END
 ![tumblr_o0r8muTL8m1u85z0co1_250](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/bf710bbe-d785-4fb8-ad3b-b9975e48e847)
