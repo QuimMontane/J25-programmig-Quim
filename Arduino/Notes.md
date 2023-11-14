@@ -198,7 +198,6 @@ condition is false).
 **Curly Braces {}**
 
 **Micro Controller**: 
-
 Are a type of computers
 
 **LED**: 
