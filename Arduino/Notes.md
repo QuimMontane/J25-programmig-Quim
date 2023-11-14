@@ -212,7 +212,9 @@ Specify memory size and possibilities.
 Mandatory in some languages (e.g., C++)
 
 **Programming Languages (PL):**
+
   º) Highly typed PL: C++
+  
   º) Loosely typed PL: Python
 
 ![6fdbced12f3d5dd6f98ac569e5f01971_w200](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/fb0c069c-bfe9-44d4-9ddb-b61dc8c51aad)
