@@ -4,7 +4,9 @@
 
 # Explanations of Blink_Variations: 
 
-**Blink_Variation_01**: Turns an LED on for one second, then off for one second, repeatedly.
+**Blink_Variation_01**: The setup function initializes the LED pin, sets it as an output, 
+and then performs the specified sequence of turning the LED on and off with specific delays. 
+The loop function creates an infinite loop that blinks the LED with the specified timing pattern.
 
 **Blink_Variation_02**: The same as in Variation 1, but there's more blinks and they blink much faster.
 
