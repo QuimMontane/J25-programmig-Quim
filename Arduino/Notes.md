@@ -561,7 +561,7 @@ the length from the variable **str**.
 
 
 **example program:**
-
+```C++
 #include <string>
 #include <iostream>
 using namespace std;
@@ -578,12 +578,13 @@ cout << The long string is " << large.length()
  << " characters." << endl;
 return 0;
 }
-
+```
 
 output:
-
+```C++
 The short string is 10 characters.
 The long string is 48 characters.
+```
 
 **Accessing individual characters**. Using square brackets, you can access individual
 characters within a string as if it’s a **char** array. Positions within a string **str** are
@@ -592,7 +593,7 @@ within a string using **[]**.
 
 
 **example program:**
-
+```C++
 #include <string>
 #include <iostream>
 using namespace std;
@@ -607,13 +608,13 @@ cout << test << endl;
 cout << "ch = " << ch << endl;
 return 0;
 }
-
+```
 
 **output:**
-
+```C++
 I am Q the omnipotent
 ch = Q
-
+```
 
 Be careful not to access positions outside the bounds of the string. The square bracket
 operator is not range-checked and thus reading from or writing to an out-of-bounds index
@@ -641,7 +642,7 @@ prints a warm welcome. If the user is not Neal, the program prints the normal me
 Finally… if the user is Neal, it prints a less enthusiastic response.
 
 **example program:**
-
+```C++
 #include <string>
 #include <iostream>
 using namespace std;
@@ -669,10 +670,10 @@ cout << "Oh, it’s you, " << myName << endl;
 }
 return 0;
 }
-
+```
 
 **output:**
-
+```C++
 Enter your name (or 'quit' to exit): Neal
 Oh, it's you, Neal
 Enter your name (or 'quit' to exit): Julie
@@ -680,7 +681,7 @@ Hi, Julie! Welcome back!
 Enter your name (or 'quit' to exit): Leland
 Hello, Leland
 Enter your name (or 'quit' to exit): quit
-
+```
 
 You can use <, <=, >, and >= to compare strings as well. These operators compare strings
 lexicographically, character by character and are case-sensitive. The following
@@ -698,7 +699,7 @@ a single character to the end of a string.
 
 
 **example program:**
-
+```C++
 #include <string>
 #include <iostream>
 using namespace std;
@@ -715,13 +716,13 @@ cout << firstname << lastname << endl;
 cout << fullname << endl;
 return 0;
 }
-
+```
 
 **output:**
-
+```C++
 Leland Stanford
 Leland Stanford, Jr.
-
+```
 
 **More (Less Used) Operations**
 The string class has many more operations; we’ll show just a few of the more useful ones
@@ -742,7 +743,7 @@ find **key** from that point on. The following code should make this slightly cl
 
 
 **example program:**
-
+```C++
 #include <string>
 #include <iostream>
 using namespace std;
@@ -767,16 +768,16 @@ cout << "Is Z there? ";
 cout << (wPos != string::npos ? "Yes!" : "No!") << endl;
 return 0;
 }
-
+```
 
 **output:**
-
+```C++
 First we: 5
 Second we: 8
 Third we: 28
 Is G there? Yes!
 Is Z there? No!
-
+```
 
 **Extracting substrings**. Sometimes you would like to create new strings by extracting
 portions of a larger one. The **substr** member function creates substrings from pieces of 
@@ -787,7 +788,7 @@ Invoking this member function does not change the receiver string, as it makes a
 with a copy of the characters specified.
 
 **example program:**
-
+```C++
 #include <string>
 #include <iostream>
 using namespace std;
@@ -806,14 +807,14 @@ newSentence += oldSentence.substr(found + 4);
 cout << "Completed sentence: " << newSentence << endl;
 return 0;
 }
-
+```
 
 **output:**
-
+```C++
 Original sentence: The quick brown fox jumped WAY over the lazy dog
 Modified sentence: The quick brown fox jumped
 Completed sentence: The quick brown fox jumped over the lazy dog
-
+```
 
 There are a couple of special cases for **substr(start, length).** If **start** is negative,
 it will cause a run-time error. If **start** is past the end of the string, it will return an empty
@@ -832,7 +833,7 @@ total of **length** characters starting at the position **start**, replacing the
 
 
 **example program:**
-
+```C++
 #include <string>
 #include <iostream>
 using namespace std;
@@ -851,14 +852,14 @@ sentence.replace(7, 10, "ro");
 cout << sentence << endl;
 return 0;
 }
-
+```
 
 **output:**
-
+```C++
 CS106B sucks.
 CS106B kind of sucks.
 CS106B rocks.
-
+```
 
 **Obtaining a C-style char * from a string**
 Remember, a C++ string is not the same thing as a C-style string (which is merely a
@@ -873,7 +874,7 @@ function.
 
 
 **example program:**
-
+```C++
 #include <string>
 #include <iostream>
 #include <fstream>
@@ -892,7 +893,7 @@ if (fs.fail()) return -1; // could not open the file!
 fs.close();
 return 0;
 }
-
+```
 
 **The CS106 Library: strlib.h**
 In addition to the standard library support for strings, there are a few extensions that the
@@ -905,7 +906,7 @@ just that, with the 'integer' functions operating on **int** and the 'real' func
 
 
 **example program:**
-
+```C++
 #include <string>
 #include <iostream>
 using namespace std;
@@ -923,14 +924,14 @@ cout << "The number is " << num << "." << endl;
 cout << "The new string is " << str2 << "." << endl;
 return 0;
 }
-
+```
 
 **output:**
-
+```C++
 The original string is 5.6.
 The number is 5.6
 The new string is 45.
-
+```
 
 Any integer or real can be safely converted to a string. However, when converting in the
 other direction, if you pass an improperly formatted string to convert to an integer or real,
@@ -942,7 +943,7 @@ strings to a uniform case before comparing to allow a case-insensitive compariso
 
 
 **example program:**
-
+```C++
 #include <string>
 #include <iostream>
 using namespace std;
@@ -963,13 +964,13 @@ cout << "Do " << appleFruit << " come before " << lowerOrangeFruit << "? ";
 cout << (appleFruit < lowerOrangeFruit ? "Yes!" : "Nope....") << endl;
 return 0;
 }
-
+```
 
 **output:**
-
+```C++
 Do apples come before ORANGES? Nope....
 Do apples come before oranges? Yes!
-
+```
 
 There are a few other functions within the **strlib** library (**equalsIgnoreCase,
 startsWith, endsWith**, and **trim**) as well.
