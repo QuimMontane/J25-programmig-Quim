@@ -451,7 +451,7 @@ If(TRdelivered && meanGrade >= 5 && allFinalTestPassed)
 
 ---
 # 🥷🕸️Scope in PL🕸️🥷
-// extended info from class
+// extended info from class made by **Spaikyjordi**
 ---
 
 ## Introduction
