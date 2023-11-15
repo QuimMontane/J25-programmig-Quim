@@ -2,21 +2,17 @@
 # Explanations of CookingSystems
 ---
 
-**CookingSystem_1**: this program works with serial, there's a readString and it makes that if you write "cook" the program will automatically write "has escrito: cook" 
-and later will write in two different lines "we are deciding" and "we are cooking"
+**CookingSystem_1:** This program continuously listens for input through the serial port. When it receives a non-empty string, it prints the string, trims any whitespace, and then 
+decides what action to take based on the input. In this case, if the input is "cook," it calls the **cook** function, which prints "we are cooking" to the serial monitor.
 
-**CookingSystem_2**: this program is similar as the one before, but there's a recipee, a spanish omelette. Firstly, you will need to write "potato" 
-and the program will automaticaly give you a potato, so now you can do the recipee. Secondly, you will write "cook" and the program will automaticaly write
-"has escrito: cook" and after it will write "we are deciding", the program will check if there's all the necessary things to make the spanish omelette, 
-and if there are, it will write" we are cooking" and "you have a Spanish Omelette"
+**CookingSystem_2:** This program allows a user to interactively input commands through the serial monitor. If the user inputs "cook," it checks if there are enough ingredients to make 
+a Spanish Omelette and updates the quantities accordingly. If the user inputs "potato," it increments the count of potatoes. The program continuously runs in a loop, waiting for user 
+input.
 
-**CookingSystem_2_My_Own_Recipee**: this program is the same as the one before, but instead of a spanish omelette, is a sushi roll. 
-So firtly, you will write "noriSeaweed" and you will automaticaly get a noriSeaweed, later you will write "salmon", and you will also get a salmon. 
-Secondly, you will write "cook" and the program will write "you have written: cook", later it will write "we are deciding" 
-and will check if there's everything to make the sushi roll, if there is, the program will write "we are making sushi" and "you have sushi".
+**CookingSystem_2_My_Own_Recipee:** This program allows a user to interactively input commands through the serial monitor to simulate making sushi. If the user inputs "cook," it checks 
+if there are enough ingredients to make sushi and updates the quantities accordingly. If the user inputs specific ingredients like "rice," "noriSeaweed," "salmon," or "soy," it 
+increments the corresponding counts. The program continuously runs in a loop, waiting for user input.
 
-**CookingSystem_4**: The program monitors the quantities of these ingredients and checks whether there are enough to prepare a salad.
-New global variables (lettuce, tomato, cucumber, oliveOil, and salt) are introduced to keep track of salad ingredients.
-Then if the input is "tomate," it increments the tomate count and the same goes to every other ingredient.
-The decide function checks the input string. If it's "cook," it calls the cook function. If the input is "prepare" it calls the prepareSalad function.
-And substracts the ingredients that have been used. The "show" option in the input is added to display the current quantities of all ingredients.
+**CookingSystem_4:** This program allows a user to interactively input commands through the serial monitor to simulate making pizza and preparing salad. The program keeps track 
+of the quantities of various ingredients and performs actions based on user commands. The **showIngredients** function allows the user to check the current inventory of ingredients. The 
+program continuously runs in a loop, waiting for user input.
