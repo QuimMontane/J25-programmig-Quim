@@ -9,4 +9,4 @@ Repository for students of the course of Programming in 1st Batchillerato
 
 # [Markdown cheat Sheet](https://www.markdownguide.org/cheat-sheet)
 
-# [Notes]()
+# [Notes](https://github.com/QuimMontane/J25-programmig-Quim/tree/main/Arduino/Notes)
