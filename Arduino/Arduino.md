@@ -4,13 +4,13 @@
 
 # Explanations of Blink_Variations: 
 
-**Blink_Variation_01**: The setup function initializes the LED pin, sets it as an output, 
-and then performs the specified sequence of turning the LED on and off with specific delays. 
+**Blink_Variation_01**: The setup function initializes the LED pin, sets it as an output, and then performs the specified sequence of turning the LED on and off with specific delays. 
 The loop function creates an infinite loop that blinks the LED with the specified timing pattern.
 
 **Blink_Variation_02**: The same as in Variation 1, but there's more blinks and they blink much faster.
 
-**Blink_Variation_03**: Writes the name QUIM in morse code.
+**Blink_Variation_03**: This C++ code uses the Arduino framework to represent the Morse code for the word "QUIM" by flashing the built-in LED on pin 13 with dots, dashes, and pauses. 
+After spelling "QUIM," the durations of dots, dashes, and pauses are halved to speed up the Morse code transmission, and the loop continues.
 
 **Blink_Variation_03-Faster**: The same as in variation 3, but every time that it loops, it goes faster.
 
