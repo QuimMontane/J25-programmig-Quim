@@ -189,6 +189,7 @@ condition is false).
 
 ---
 ## 🦼🦺Programming Languages🎫🎭 
+(I did it with Spaikyjordi)
 ---
 
 **Brackets []**
@@ -220,6 +221,7 @@ Mandatory in some languages (e.g., C++)
 
 ---
 ## 🎁🧨Common Variables in C++👔🥽
+(I did it with Spaikyjordi)
 ---
 
 
@@ -239,6 +241,7 @@ Mandatory in some languages (e.g., C++)
 
 ---
 ## 👨🏼‍🦲🥚Common Statements in C++💻
+(I did it with Spaikyjordi)
 ---
 
 º)  `A = A + 1`: Equivalent to `A++`.
@@ -260,6 +263,7 @@ Mandatory in some languages (e.g., C++)
 
  ---
  ## 🕵🏼‍♂️Syntax of Variables in C++💂🏼‍♀️💂🏼‍♂️
+ (I did it with Spaikyjordi)
  ---
  
 **Declaration:**
@@ -276,6 +280,7 @@ Mandatory in some languages (e.g., C++)
 
 ---
 # 📚Functions in programming📚
+(I did it with Spaikyjordi)
 ---
 
 
@@ -329,6 +334,7 @@ void loop() {
 
 ---
 # 🌊Flow Control🌊
+(I did it with Spaikyjordi)
 ---
 
 
