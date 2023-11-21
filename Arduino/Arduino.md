@@ -61,7 +61,7 @@ dot, and the LED blinks accordingly. The loop repeats, continually transmitting 
 dots and dashes, and a forward slash ("/") is printed at the end of each letter. After printing the Morse code for all the letters, there is a delay of 1000 milliseconds before the loop 
 repeats.
 
-[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Functionalprogramming_Explanations)
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/FunctionalProgramming/Functionalprogramming_Explanations.md)
 
 ---
 # Explanation of MySpecialMessage:
