@@ -13,7 +13,7 @@
 
 **Name of variables to call a function**: Parameter, has to be a number
 
-do while (eggs > 0){     //condition
+do while (eggs > 0){                  //condition
 
     takeEgg();
     
@@ -21,7 +21,9 @@ do while (eggs > 0){     //condition
     
     throwGarbage();
 }
+
 whisk(); //batir huevos
+
 
 do while (true){
 
@@ -39,8 +41,9 @@ do while (true){
 
 while (notConnected){
 
-    tryToConnect();    //example of what Discord might do
+    tryToConnect();               //example of what Discord might do
 }
+
 if (!notConnected){
 
   loadMessages();
@@ -56,6 +59,7 @@ while (numero<200){
      
      suma = suma + numero;
 }
+
 Serial.println(suma)
 
 
