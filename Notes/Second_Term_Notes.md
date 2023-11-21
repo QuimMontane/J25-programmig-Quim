@@ -21,6 +21,7 @@
     
     throwGarbage();
 }
+
 whisk(); //batir huevos
 
 
