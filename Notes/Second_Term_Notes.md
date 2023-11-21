@@ -21,7 +21,6 @@ do while (eggs > 0){                  //condition
     
     throwGarbage();
 }
-
 whisk(); //batir huevos
 
 
