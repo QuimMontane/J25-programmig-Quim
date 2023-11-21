@@ -71,4 +71,4 @@ repeats.
 Five Nights at Freddy's. It then includes a delay of 1000 milliseconds (1 second) to allow you to read the message before it is printed again in the next iteration of the loop. The 
 repeated printing of newlines (\n) at the end serves to clear the Serial Monitor for better readability.
 
-[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/MySpecialMessage_Explanation)
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/MySpecialMessage/MySpecialMessage_Explanation.md)
