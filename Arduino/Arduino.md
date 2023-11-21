@@ -38,7 +38,7 @@ increments the corresponding counts. The program continuously runs in a loop, wa
 of the quantities of various ingredients and performs actions based on user commands. The **showIngredients** function allows the user to check the current inventory of ingredients. The 
 program continuously runs in a loop, waiting for user input.
 
-[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/CookingSystem_Explanation)
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Cooking_System/CookingSystem_Explanation.md)
 
 
 ---
