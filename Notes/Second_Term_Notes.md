@@ -14,15 +14,21 @@
 **Name of variables to call a function**: Parameter, has to be a number
 
 do while (eggs > 0){     //condition
+
     takeEgg();
+    
     breakEgg();
+    
     throwGarbage();
 }
 whisk(); //batir huevos
 
 do while (true){
+
    climbMountainWithBoulder();
+   
    seeHowTheBoulderFalls();
+   
    goBackToTheBottomOfTheMountain();
 }
 
@@ -32,16 +38,22 @@ do while (true){
 ---
 
 while (notConnected){
+
     tryToConnect();    //example of what Discord might do
 }
 if (!notConnected){
+
   loadMessages();
 }
 
 int numero = 0;
+
 int suma = 0;
+
 while (numero<200){
+
      numero = numero + 2;
+     
      suma = suma + numero;
 }
 Serial.println(suma)
