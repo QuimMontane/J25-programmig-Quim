@@ -16,7 +16,7 @@ After spelling "QUIM," the durations of dots, dashes, and pauses are halved to s
 **Blink_Variation_03-Faster**: This program represents the Morse code for "QUIM" using the built-in LED, and after spelling the word, it speeds up the transmission by halving the 
 durations of dots, dashes, and pauses. The loop continuously repeats this pattern.
 
-[code]([https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Blink_Explanation](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Blink/Blink_Explanation.md))
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Blink/Blink_Explanation.md)
 
 
 ---
