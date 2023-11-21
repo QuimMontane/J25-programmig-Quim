@@ -25,13 +25,14 @@
 whisk(); //batir huevos
 
 
-do while (true){
 
-   climbMountainWithBoulder();
+```do while (true){´´´
+
+   ```climbMountainWithBoulder();´´´
    
-   seeHowTheBoulderFalls();
+   ```seeHowTheBoulderFalls();´´´
    
-   goBackToTheBottomOfTheMountain();
+   ```goBackToTheBottomOfTheMountain();´´´
 }
 
 
