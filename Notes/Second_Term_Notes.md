@@ -13,7 +13,7 @@
 
 **Name of variables to call a function**: Parameter, has to be a number
 
-do while (eggs > 0){                  //condition
+do while (eggs > 0){            ```      //condition ```
 
     takeEgg();
     
