@@ -1,4 +1,4 @@
-void setup() {     //Problems divisible by both 4 and 6
+void setup() {      //Problems divisible by both 4 and 6
   Serial.begin(9600);
 
   for (int n = 1; n <= 100; n++) {
