@@ -46,7 +46,9 @@ Confirm that the DNI number starts with a leading zero.
 Use the algorithm described above to calculate the letter based on the numeric part of the DNI.
 Compare the calculated letter with the one provided in the DNI. If they match, the DNI is likely valid.
 
-**Example:**
+---
+## Example:
+---
 
 Let's take an example DNI: 01234567-X
 
@@ -56,15 +58,6 @@ The numeric part is 01234567.
 
 **Letter Calculation:**
 
-01234567
-m
-o
-d
- 
- 
-23
-=
-18
 01234567mod23=18
 The corresponding letter is Q.
 
