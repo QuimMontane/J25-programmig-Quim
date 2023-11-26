@@ -5,7 +5,9 @@
 In Spain, the Documento Nacional de Identidad (DNI) is the national identity card that serves as an official identification document for Spanish citizens. The DNI number is a unique 
 identifier assigned to each individual, and it consists of both numbers and a letter. Understanding the logic behind the DNI number and letter can help in validating its authenticity.
 
+---
 ## DNI Structure:
+---
 
 **DNI Number (Numeric Part):**
 
@@ -25,10 +27,11 @@ The result corresponds to a specific letter in the following mapping:
 
 ![tablaaaa](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/7004f81d-16ce-4e02-beb6-38b4062cb83e)
 
-
+---
 ## Validating a DNI:
+---
 
-To validate a DNI, you can follow these steps:
+## To validate a DNI, you can follow these steps:
 
 **Check the Length:**
 
