@@ -1,4 +1,9 @@
-In Spain, the Documento Nacional de Identidad (DNI) is the national identity card that serves as an official identification document for Spanish citizens. The DNI number is a unique identifier assigned to each individual, and it consists of both numbers and a letter. Understanding the logic behind the DNI number and letter can help in validating its authenticity.
+---
+# DNI EXPLICATION
+---
+
+In Spain, the Documento Nacional de Identidad (DNI) is the national identity card that serves as an official identification document for Spanish citizens. The DNI number is a unique 
+identifier assigned to each individual, and it consists of both numbers and a letter. Understanding the logic behind the DNI number and letter can help in validating its authenticity.
 
 ## DNI Structure:
 
