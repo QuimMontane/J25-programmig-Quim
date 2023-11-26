@@ -58,7 +58,7 @@ The numeric part is 01234567.
 
 **Letter Calculation:**
 
-01234567mod23=18
+01234567 mod 23 = 18
 The corresponding letter is Q.
 
 **Validation:**
