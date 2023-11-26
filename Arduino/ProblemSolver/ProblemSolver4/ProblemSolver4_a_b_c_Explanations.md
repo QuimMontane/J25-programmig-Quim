@@ -1,5 +1,5 @@
 ---
-# ProblemSolver4 a, b, c and ExtraPoints Explanations:
+# ProblemSolver4 a, b, c Explanations:
 ---
 
 
