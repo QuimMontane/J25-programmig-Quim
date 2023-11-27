@@ -31,8 +31,8 @@ do while (true){
    seeHowTheBoulderFalls();
    
    goBackToTheBottomOfTheMountain();
-}´´´
-
+}
+´´´
 
 ---
 ## C++ --> Syntaxis
@@ -59,7 +59,8 @@ while (numero<200){
      suma = suma + numero;
 }
 
-Serial.println(suma)´´´
+Serial.println(suma)
+´´´
 
 
 **to call a function:**
