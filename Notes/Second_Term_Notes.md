@@ -13,55 +13,53 @@
 
 **Name of variables to call a function**: Parameter, has to be a number
 
-do while (eggs > 0){           ```      //condition´´´
+```do while (eggs > 0){           ```      //condition´´´
 
     takeEgg();
     
     breakEgg();
     
     throwGarbage();
-}
+}´´´
 
-whisk(); //batir huevos
+```whisk(); //batir huevos
 
+do while (true){
 
-
-```do while (true){´´´
-
-   ```climbMountainWithBoulder();´´´
+   climbMountainWithBoulder();
    
-   ```seeHowTheBoulderFalls();´´´
+   seeHowTheBoulderFalls();
    
-   ```goBackToTheBottomOfTheMountain();´´´
-}
+   goBackToTheBottomOfTheMountain();
+}´´´
 
 
 ---
 ## C++ --> Syntaxis
 ---
 
-while (notConnected){
+```while (notConnected){
 
-    tryToConnect();               //example of what Discord might do
-}
+    tryToConnect();              ``` //example of what Discord might do´´´
+}´´´
 
-if (!notConnected){
+```if (!notConnected){
 
   loadMessages();
-}
+}´´´
 
-int numero = 0;
+```int numero = 0;
 
-int suma = 0;
+int suma = 0;´´´
 
-while (numero<200){
+```while (numero<200){
 
      numero = numero + 2;
      
      suma = suma + numero;
-}
+}´´´
 
-Serial.println(suma)
+```Serial.println(suma)´´´
 
 
 **to call a function:**
