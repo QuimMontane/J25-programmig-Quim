@@ -33,7 +33,7 @@ do while (true){
    
    goBackToTheBottomOfTheMountain();
 }
-
+```
 
 ---
 ## C++ --> Syntaxis
@@ -61,7 +61,7 @@ while (numero<200){
 }
 
 Serial.println(suma)
-
+```
 
 
 **to call a function:**
@@ -81,24 +81,26 @@ For(“definition of variables”;”condition of iteration”;”step”){codig
 ---
 ## Modulus (reminder) 
 ---
-
+```
 7/3=2,333333… 
 
 7-->2 integer quotient//1 reminder (division) 
+```
 
 In programming: 
-
+```
 7/3=2  
-
+```
 If we are using integers 
-
+```
 7%3=1 --> modulus operator 
-
+```
 Ex. 
-
+```
 6/3=2 
 
 6%3=0 
+```
 
 ---
 # Strings🕹
