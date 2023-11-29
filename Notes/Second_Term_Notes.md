@@ -9,7 +9,8 @@
 
 **Iteration**: repeat things, but always of different things 
 
-**PSEUDOCODE**: In computer science, pseudocode is a description of the steps in an algorithm using a mix of conventions of programming languages with informal, usually self-explanatory, notation of actions and conditions. 
+**PSEUDOCODE**: In computer science, pseudocode is a description of the steps in an algorithm using a mix of conventions of programming languages with informal, usually 
+self-explanatory, notation of actions and conditions. 
 
 **Name of variables to call a function**: Parameter, has to be a number
 
@@ -32,7 +33,7 @@ do while (true){
    
    goBackToTheBottomOfTheMountain();
 }
-´´´
+
 
 ---
 ## C++ --> Syntaxis
@@ -60,7 +61,7 @@ while (numero<200){
 }
 
 Serial.println(suma)
-´´´
+
 
 
 **to call a function:**
