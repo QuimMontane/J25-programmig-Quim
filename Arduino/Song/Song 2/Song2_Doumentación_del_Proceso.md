@@ -139,7 +139,7 @@ Una vez lo tenia aprendido, me fui a ver la partitura de los peces en el rio, y 
 //do  
 
 //do 
-
+```
 
 ## Paso 3:
 
@@ -273,7 +273,7 @@ rápido:
 //do 0.5 
 
 //do 1 
-
+```
 
 
 ## Paso 4:
@@ -293,7 +293,7 @@ Fui otra vez a google, y busque cual era la frecuencia para cada nota, luego ide
 // La = a
 
 // Si = b
-
+```
 
 Una vez las identifique, les puse un valor a las letras de antes, para luego en el código, no tener que ir poniendo tantos números y la mayoria se repiten bastante, ese valor que le 
 hemos puesto a las letras es la frecuencia que hemos buscando antes:
@@ -311,7 +311,7 @@ int g=783;
 int a=880;
 
 int b=987;
-
+```
 
 
 ## Paso 5:
@@ -325,7 +325,7 @@ Quise intercambiar los números al lado de las notas en otras letras, para asi n
 // 1=z
 
 // 0.5=w
-
+```
 
 Luego, lo que hize, fue que calcule cuantos milisegundos hay en 1 minuto, lo calcule en milisegundos, porque c++ usa milisegundos, eso me daba 60000 milisegundos, entonces, cada letra 
 valia un número, y cada número de esos, valia tanto, como ya vimos antes, entonces para saber cuanto tiene que durar cada nota, lo que hize, fue poner (la letra) = (60000) dividido (el 
@@ -338,14 +338,231 @@ int x=60000/220;
 int z=60000/110;
 
 int w=60000/55;
-
+```
 
 
 ## Paso 6:
 
-Ahora ya empezamos a construir el código, lo que hize, fue irme al Song1 y cogi esto de referenia:
+Ahora ya empezamos a construir el código, lo que hize, fue irme al **Song1** y cogi esto de referenia:
 
  ```tone(9,293.66,200);
   delay(200);
+ ```
+El primer número dentro del parentesis del tone, es el Pin, el segundo, es la frecuencia y el tercero es el tiempo que dura la nota.
+Luego esta el delay, en el delay, yo voy a poner el mismo número que el tiempo que dura la nota + 50 milisegundos.
+
+
+Asi es como queda para una sola nota:
+
+```
+tone(9,c,z);
+  delay(z+50);  
+```
+
+Como ya he dicho anteriormente, yo no usare casi números, para que asi sea más visual, más rápido y facil identificar que significa y encontrarlo.
+
+
+Mientras iba poniendo todas las notas dentro de el código, le iba poniendo un gión al lado de cada nota la qual ya puse en el código, para que asi se me sea más facil identificar cuales 
+ya he puesto y no equivocarme:
+
+```
+//do 1 -
+//do 0.5 -
+//do 1 -
+//do 1 -
+//si 0.5 -
+//la 1 -
+//si 1 -
+//mi 2-
+//re 1 -
+//re 0.5 -
+//re 1 -
+//re 1 -
+//do 0.5 -
+//si 1 -
+//do 1 -
+//si 1 -
+//la 2 - 
+//do 1 -
+//do 1 -
+//do 1 -
+//do 1 -
+//si 1 -
+//la 1 -
+//si 1 -
+//sol 1 -
+//mi 2 -
+//re 1 -
+//re 0.5 -
+//re 1 -
+//re 1 -
+//do 0.5 -
+//la 1 -
+//do 1 -
+//si 1 -
+//la 1 -
+//la 0.5 -
+//si 1 -
+//do 0.5 -
+//do 0.5 -
+//do 0.5 -
+//do 1 -
+//do 1 -
+//do 0.5 -
+//do 0.5 -
+//re 0.5 -
+//do 0.5 -
+//re 0.5 -
+//do 1 -
+//si 1 -
+//si 0.5 -
+//la 1 -
+//sol 0.5 -
+//la 0.5 -
+//si 0.5 -
+//do 1 -
+//la 2 -
+//do 1 -
+//do 0.5 -
+//do 1 -
+//do 1 -
+//do 0.5 -
+//do 1 -
+```
+
+
+
+## Paso 7:
+
+
+Acabar de poner todas las letras y números.
+Asi es como quedaria el resultado final:
+
+```
+tone(9,c,z);
+  delay(z+50);       
+tone(9,c,w);
+  delay(w+50);
+tone(9,c,z);
+  delay(z+50);
+tone(9,c,z);
+  delay(z+50);
+tone(9,b,w);
+  delay(w+50);
+tone(9,a,z);
+  delay(z+50);
+tone(9,b,z);
+  delay(z+50);
+tone(9,e,x);
+  delay(x+50);
+tone(9,d,z);
+  delay(z+50);
+tone(9,d,w);
+  delay(w+50);
+tone(9,d,z);
+  delay(z+50);
+tone(9,d,z);
+  delay(z+50);
+tone(9,c,w);
+  delay(w+50);
+tone(9,b,z);
+  delay(z+50);
+tone(9,c,z);
+  delay(z+50);
+tone(9,b,z);
+  delay(z+50);
+tone(9,a,x);
+  delay(x+50);
+tone(9,c,z);
+  delay(z+50);
+tone(9,c,z);
+  delay(z+50);
+tone(9,c,z);
+  delay(z+50);
+tone(9,c,z);
+  delay(z+50);
+tone(9,b,z);
+  delay(z+50);
+tone(9,a,z);
+  delay(z+50);
+tone(9,b,z);
+  delay(z+50);
+tone(9,g,z);
+  delay(z+50);
+tone(9,e,x);
+  delay(x+50);
+tone(9,d,z);
+  delay(z+50);
+tone(9,d,w);
+  delay(w+50);
+tone(9,d,z);
+  delay(z+50);
+tone(9,d,z);
+  delay(z+50);
+tone(9,c,w);
+  delay(w+50);
+tone(9,a,z);
+  delay(z+50);
+tone(9,c,z);
+  delay(z+50);
+tone(9,b,z);
+  delay(z+50);
+tone(9,a,z);
+  delay(z+50);
+tone(9,a,w);
+  delay(w+50);
+tone(9,b,z);
+  delay(z+50);
+tone(9,c,w);
+  delay(w+50);
+tone(9,c,w);
+  delay(w+50);
+tone(9,c,w);
+  delay(w+50);
+tone(9,c,z);
+  delay(z+50);
+tone(9,c,z);
+  delay(z+50);
+tone(9,c,w);
+  delay(w+50);
+tone(9,c,w);
+  delay(w+50);
+tone(9,d,w);
+  delay(w+50);
+tone(9,c,w);
+  delay(w+50);
+tone(9,d,w);
+  delay(w+50);
+tone(9,c,z);
+  delay(z+50);
+tone(9,b,z);
+  delay(z+50);
+tone(9,b,w);
+  delay(w+50);
+tone(9,a,z);
+  delay(z+50);
+tone(9,g,w);
+  delay(w+50);
+tone(9,a,w);
+  delay(w+50);
+tone(9,b,w);
+  delay(w+50);
+tone(9,c,z);
+  delay(z+50);
+tone(9,a,x);
+  delay(x+50);
+tone(9,c,z);
+  delay(z+50);
+tone(9,c,w);
+  delay(w+50);
+tone(9,c,z);
+  delay(z+50);
+tone(9,c,z);
+  delay(z+50);
+tone(9,c,w);
+  delay(w+50);
+tone(9,c,z);
+  delay(z+50);
+```
 
 
