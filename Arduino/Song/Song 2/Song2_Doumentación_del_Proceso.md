@@ -8,7 +8,8 @@ Lo primero que hize, fue irme a google y buscar partituras de canciones para hac
 porque sino seria demasiado largo. 
 Luego volvi a buscar por google, cuales eran las notas musicales "Do,Re,Mi,Fa,Sol,La,Si" y donde estaban posicionadas, porque no me acordaba. 
 
-[Notas musicales](https://guitarmonia.es/wp-content/uploads/2012/03/Notas-musicales-1.jpg)
+![Notas-musicales-1](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/79bcd92f-56a7-45c6-b187-972230c659fc)
+
 
 
 
