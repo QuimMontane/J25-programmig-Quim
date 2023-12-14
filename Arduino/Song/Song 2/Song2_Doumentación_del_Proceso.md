@@ -15,7 +15,7 @@ Luego volvi a buscar por google, cuales eran las notas musicales "Do,Re,Mi,Fa,So
 
 ## Paso 2:
 Una vez lo tenia aprendido, me fui a ver la partitura de los peces en el rio, y ha apunter todas las notas, para asi luego me sea mas facil y rapido ponerlas en el código:
-
+```
 //do  
 
 //do  
@@ -149,7 +149,7 @@ Luego me fui a buscar por internet cuanto valia beats valia cada nota.
 
 Una vez lo entendi, le puse cuanto valia a cada nota de la lista que hize anteriormente de las notas de toda la partitura, para que asi luego al ponerlo en el código me sea más facil y 
 rápido:
-
+```
 //do 1 
 
 //do 0.5 
@@ -279,7 +279,7 @@ rápido:
 ## Paso 4:
 
 Fui otra vez a google, y busque cual era la frecuencia para cada nota, luego identifique las notas musicales con unas letras para identificarlas más rápido:
-
+```
 // Do = c
 
 // Re = d
@@ -297,7 +297,7 @@ Fui otra vez a google, y busque cual era la frecuencia para cada nota, luego ide
 
 Una vez las identifique, les puse un valor a las letras de antes, para luego en el código, no tener que ir poniendo tantos números y la mayoria se repiten bastante, ese valor que le 
 hemos puesto a las letras es la frecuencia que hemos buscando antes:
-
+```
 int c=523;
 
 int d=587;
@@ -317,7 +317,7 @@ int b=987;
 ## Paso 5:
 
 Quise intercambiar los números al lado de las notas en otras letras, para asi no liarnos con los demás números y luego querer usar el código y por una tonteria no funcione:
-
+```
 // 4=y 
 
 // 2=x
@@ -330,7 +330,7 @@ Quise intercambiar los números al lado de las notas en otras letras, para asi n
 Luego, lo que hize, fue que calcule cuantos milisegundos hay en 1 minuto, lo calcule en milisegundos, porque c++ usa milisegundos, eso me daba 60000 milisegundos, entonces, cada letra 
 valia un número, y cada número de esos, valia tanto, como ya vimos antes, entonces para saber cuanto tiene que durar cada nota, lo que hize, fue poner (la letra) = (60000) dividido (el 
 número multiplicado por 110), usamos 110 porque lo ponia en la partitura.
-
+```
 int y=60000/440;
 
 int x=60000/220;
@@ -343,5 +343,9 @@ int w=60000/55;
 
 ## Paso 6:
 
+Ahora ya empezamos a construir el código, lo que hize, fue irme al Song1 y cogi esto de referenia:
+
+ ```tone(9,293.66,200);
+  delay(200);
 
 
