@@ -3,6 +3,10 @@
 ---
 
 
+![los peces en el rio version simplificada](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/00f3fec4-5093-4e77-b6c7-5b40a0097d67)
+
+
+
 ## Paso 1:
 Lo primero que hize, fue irme a google y buscar partituras de canciones para hacer, porque no sabia cual hacer, entonces me tope con la de los peces en el rio, la version simplificada,
 porque sino seria demasiado largo. 
