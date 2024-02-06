@@ -52,6 +52,7 @@ For(“definition of variables”;”condition of iteration”;”step”){code}
 ```
 
 **Example of a loop "for":** 
+
  ```c++
  For(“definition of variables”;”condition of iteration”;”step”){codigo a repetir} 
 ```
@@ -61,11 +62,13 @@ For(“definition of variables”;”condition of iteration”;”step”){code}
 ---
 
 **to call a function:**
+
 ```c++
 nameOfFunction (values of parameters if necessary, );
 ```
 
 **Return type function:**
+
 ```c++
 nameOfFunction ( [type] parameter if necessaery, _){code...}
 ```
@@ -73,6 +76,7 @@ nameOfFunction ( [type] parameter if necessaery, _){code...}
 ---
 ## Modulus (reminder) 
 ---
+
 ```c++
 7/3=2,333333… 
 
@@ -80,16 +84,19 @@ nameOfFunction ( [type] parameter if necessaery, _){code...}
 ```
 
 In **programming:** 
+
 ```c++
 7/3=2  
 ```
 
 If we are using **integers**:
+
 ```c++
 7%3=1 --> modulus operator 
 ```
 
 Ex. 
+
 ```c++
 6/3=2 
 
@@ -108,6 +115,7 @@ like input/output, textual analysis, and storing data.
 
 
 ## Declaration and Initialization
+
 ```C++
 // Declaration and initialization of strings
 std::string greeting = "Hello, ";
@@ -115,6 +123,7 @@ std::string name = "World!";
 ```
 
 ## Important functions supported by String class
+
 - append(): This function concatenates a segment of a string onto another string.
 - assign(): This function allocates a segment of the string.
 - at(): This function obtains the character stored at a specified location.
@@ -130,34 +139,43 @@ std::string name = "World!";
 
   
 ## Important Constructors
+
 - String(): This constructor is used for creating an empty string.
 - String(const char *str): This constructor is used for creating string objects from a null-terminated string.
 - String(const string *str): This constructor is used for creating a string object from another string object.
 
   
 ## Concatenation
+
 Strings can be combined using the + operator, a process known as concatenation.
 ```C++
 std::string message = greeting + name; // Results in "Hello, World!"
 ```
 
+
 ## String Length
+
 The length of a string can be obtained using the length() or size() member functions.
 ```C++
 int length = message.length(); // Length is 13
 ```
 
+
 ## Substrings
+
 Portions of a string can be extracted using the substr() function.
 ```C++
 std::string sub = message.substr(7, 5); // Extracts "World"
 ```
 
+
 ## String Comparison
+
 Strings can be compared using relational operators (==, !=, <, >, <=, >=).
 ```C++
 bool isEqual = (greeting == name); // Evaluates to false
 ```
+
 
 ## String Manipulation
 Various functions are available for manipulating strings, such as finding substrings, replacing characters, and converting case.
@@ -166,6 +184,7 @@ Various functions are available for manipulating strings, such as finding substr
 std::transform(message.begin(), message.end(), message.begin(), ::toupper);
 ```
 
+
 ---
 # Arrays
 ---
@@ -173,11 +192,14 @@ std::transform(message.begin(), message.end(), message.begin(), ::toupper);
 ---
 ## Definition:
 ---
+
 Variables that store several values in a specific order and don’t change un size, they also have very fast access, and the size of the array is relatively small.
+
 
 ---
 ## Important Concepts:
 ---
+
 - **Collection of elements**: Arrays in C++ are collections of elements of the same data type stored in contiguous memory locations.
 - **Index and value**: An element of an array will always have an index between 0 and n-1 being n: the length of the array.
 - **Lenght**: Size of an array; number of elements.
@@ -187,11 +209,13 @@ Variables that store several values in a specific order and don’t change un si
 - **Memory management**: Memory for arrays is allocated statically or dynamically depending on how they are declared.
 - **Iteration**: Loops are commonly used to iterate through array elements for processing or manipulation.
 
+
 ---
 ## Arrays using Int
 ---
 
 **Arrays with int slow form**
+
 ```C++
 int[] grades=(5, 7, 9, 7, 6, 8}
 int sum = 0;
@@ -206,6 +230,7 @@ Serial.println(average);
 ```
 
 **Arrays with int faster version using a loop**
+
 ```C++
 int [] grades={5, 7, 9, 7, 6, 8}
 int sum = 0;
@@ -221,6 +246,7 @@ Serial.println(average);
 ---
 
 **Best grade**
+
 ```C++
 void setup(){
 Serial.begin(9600); 
@@ -237,6 +263,7 @@ Serial.println(max);
 ```
 
 **Worst grade**
+
 ```C++
 void setup(){ 
 Serial.begin(9600); 
