@@ -931,3 +931,49 @@ This Java program calculates the area of a triangle using the formula: area = ba
 So, when you run this program, it will output the calculated area of the triangle with the given **base** and **height** values.
 
 [code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/JAVA/Triangle/Explanation.md)
+
+
+---
+# Explanation of sum from 1 to 1000 but only odd number:
+---
+
+The program calculates the sum of all odd numbers between 1 and 1000 and prints out the result.
+
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/JAVA/SUM/sum%20from%201%20to%201000%20but%20only%20odd%20number/Explanation.md)
+
+
+---
+# Explanation of The sum of all the numbers divisible by 7 from 1 to 1000:
+---
+
+This program calculates the sum of all numbers divisible by 7 between 7 and 1000 and prints out the result.
+
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/JAVA/SUM/The%20sum%20of%20all%20the%20numbers%20divisible%20by%207%20from%201%20to%201000/Explanation.md)
+
+
+
+---
+# Explanation of sum of the square of all the numbers from 1 to 100:
+---
+
+This Java program calculates the sum of the squares of all the numbers from 1 to 100 and then prints the result.
+
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/JAVA/SUM/sum%20of%20the%20square%20of%20all%20the%20numbers%20from%201%20to%20100/Explanation.md)
+
+
+
+---
+# Explanation of product of all the numbers from 1 to 10:
+---
+
+
+This Java program calculates the product of all numbers from 1 to 10.
+So, the output of this program will be: "The product of all the numbers from 1 to 10 is: [result]", where [**result**] will be the actual product calculated by the program.
+
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/JAVA/SUM/product%20of%20all%20the%20numbers%20from%201%20to%2010/Explanation.md)
+
+
+
+
+
+
