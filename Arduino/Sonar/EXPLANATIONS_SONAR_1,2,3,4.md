@@ -23,10 +23,3 @@ which is executed once at the start of the program.
 
 
 
-
-
-
-
-
-
-**Sonar4:**
