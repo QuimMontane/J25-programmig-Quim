@@ -42,68 +42,55 @@ do while (true) {
 }
 ```
 
+
+---
+## Loop "for"
+---
+
+```c++
+For(“definition of variables”;”condition of iteration”;”step”){code}
+```
+
+**Example of a loop "for":** 
+ ```c++
+ For(“definition of variables”;”condition of iteration”;”step”){codigo a repetir} 
+```
+
 ---
 ## C++ --> Syntaxis
 ---
 
-```while (notConnected){
-
-    tryToConnect();               //example of what Discord might do
-}
-
-if (!notConnected){
-
-  loadMessages();
-}
-
-int numero = 0;
-
-int suma = 0;
-
-while (numero<200){
-
-     numero = numero + 2;
-     
-     suma = suma + numero;
-}
-
-Serial.println(suma)
+**to call a function:**
+```c++
+nameOfFunction (values of parameters if necessary, );
 ```
 
-
-**to call a function:**
-nameOfFunction (values of parameters if necessary, );
-
 **Return type function:**
+```c++
 nameOfFunction ( [type] parameter if necessaery, _){code...}
-
-**Array** (search definition)
-
-
-Syntaxis bucle “**for**”: 
-
-For(“definition of variables”;”condition of iteration”;”step”){codigo a repetir} 
-
+```
  
 ---
 ## Modulus (reminder) 
 ---
-```
+```c++
 7/3=2,333333… 
 
 7-->2 integer quotient//1 reminder (division) 
 ```
 
-In programming: 
-```
+In **programming:** 
+```c++
 7/3=2  
 ```
-If we are using integers 
-```
+
+If we are using **integers**:
+```c++
 7%3=1 --> modulus operator 
 ```
+
 Ex. 
-```
+```c++
 6/3=2 
 
 6%3=0 
@@ -179,7 +166,90 @@ Various functions are available for manipulating strings, such as finding substr
 std::transform(message.begin(), message.end(), message.begin(), ::toupper);
 ```
 
+---
+# Arrays
+---
 
+---
+## Definition:
+---
+Variables that store several values in a specific order and don’t change un size, they also have very fast access, and the size of the array is relatively small.
+
+---
+## Important Concepts:
+---
+- **Collection of elements**: Arrays in C++ are collections of elements of the same data type stored in contiguous memory locations.
+- **Index and value**: An element of an array will always have an index between 0 and n-1 being n: the length of the array.
+- **Lenght**: Size of an array; number of elements.
+- **Fixed size**: Once declared, the size of an array cannot be changed during runtime.
+- **Indexing**: Elements in an array are accessed using an index, starting from 0 for the first element.
+- **Declaration**: Arrays are declared using square brackets [] after the data type, specifying the size of the array.
+- **Memory management**: Memory for arrays is allocated statically or dynamically depending on how they are declared.
+- **Iteration**: Loops are commonly used to iterate through array elements for processing or manipulation.
+
+---
+## Arrays using Int
+---
+
+**Arrays with int slow form**
+```C++
+int[] grades=(5, 7, 9, 7, 6, 8}
+int sum = 0;
+sum = sum + grades [0];
+sum = sum + grades [1];
+sum = sum + grades [2];
+sum = sum + grades [3];
+sum = sum + grades [4];
+sum = sum + grades [5] ;
+int average = sum/6;
+Serial.println(average);
+```
+
+**Arrays with int faster version using a loop**
+```C++
+int [] grades={5, 7, 9, 7, 6, 8}
+int sum = 0;
+  for (int n=0-;n<6;n++ ) {
+    sum = sum + grades [n];
+  }
+int average = sum/6;
+Serial.println(average);
+```
+
+---
+## Arrays using Int for real life examples
+---
+
+**Best grade**
+```C++
+void setup(){
+Serial.begin(9600); 
+int[]grades=(5, 7, 9, 7, 6, 8)
+int max = grades [0];
+   for (int i=1; i<6;i++) {
+      if (grades [i]>max) {
+      max = grades [i];
+      }
+  }
+Serial.println(max);
+}
+
+```
+
+**Worst grade**
+```C++
+void setup(){ 
+Serial.begin(9600); 
+int grades [] = {9,5,8,3,2,9,3,1,7}; 
+int min = grades[0]; 
+   for (int i = 1; i < 9; i++) { 
+      if (grades[i] < min) { 
+      min = grades[i]; 
+      } 
+  } 
+Serial.println(min); 
+} 
+```
 
 
 
