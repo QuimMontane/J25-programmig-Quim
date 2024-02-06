@@ -81,3 +81,22 @@ repeated printing of newlines (\n) at the end serves to clear the Serial Monitor
 These are exercices for homework, they were to practice for the examen we were going to have next week, and our teacher saw that we didn't make a very great job defining functions, so firstly he explained how to do some excericies with examples, and then he provided some exercices for us. So in this exercices we had to define the functons by the explanation we were given.
 
 [code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/HomeworkDefiningAFunction/Explanation.md)
+
+
+---
+# EXPLANATIONS of ARRAYS
+---
+
+**Explanation of Array 1:**
+This program defines two functions, **swapFirstTwoLetters** and **swapAandI**, which respectively swap the first two letters and 'a' with 'i' in a given string. 
+In the **loop** function, it initializes a string variable **word** with the value "webi wabo", calls the two swap functions on it, and prints the modified 
+string via Serial communication. This process repeats every second due to the delay(1000) statement in the loop.
+
+
+**Explanation of Array 2:**
+This program initializes an array **grades** with 9 integer values representing grades. 
+It then finds the minimum grade in the array using a **for** loop and prints the index of each occurrence where a grade is smaller than the current minimum. 
+Finally, it prints the minimum grade found.
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Arrays/Explanations.md)
+
+
