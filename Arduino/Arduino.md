@@ -1,8 +1,10 @@
 ---
-# EXPLANATIONS:
+# EXPLANATIONS c++:
 ---
 
+---
 # Explanations of Blink_Variations: 
+---
 
 **Blink_Variation_01**: The setup function initializes the LED pin, sets it as an output, and then performs the specified sequence of turning the LED on and off with specific delays. 
 The loop function creates an infinite loop that blinks the LED with the specified timing pattern.
@@ -874,3 +876,58 @@ finalmente el profesor dijo que no pasaba nada si no lo tenias, porque nadie sab
 que ya se informaria y nos intentaria ayudar, pero creo que se le olvidó y finalmente no lo contamos.
 
 [code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Wrap-Up_Project/Explanation.md)
+
+
+
+
+
+
+
+---
+# EXPLICATIONS JAVA:
+---
+
+---
+# EXPLICATION of OneLine:
+---
+
+This Java program calculates the sum, difference, product, quotient, and remainder of two integers, number1 and number2, and then prints out the result.
+
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/JAVA/OneLine/Explication.md)
+
+
+---
+# Explanation Sum_AddingAnotherNumber:
+---
+
+This Java program calculates the sum of three numbers according to a specific formula and then prints the result.
+
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/JAVA/SUM/Sum_AddingAnotherNumber/Explanation.md)
+
+
+---
+# Explanation of Sum_Ex_1:
+---
+
+This Java program calculates the sum of all integers from a lower bound (**LOWERBOUND**) to an upper bound (**UPPERBOUND**). 
+
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/JAVA/SUM/Sum_Ex_1/Explanation.md)
+
+
+---
+# Explanation of Sum_ofTwoNumbers:
+---
+
+This Java program calculates the result of an arithmetic expression and prints it to the console. 
+
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/JAVA/SUM/Sum_ofTwoNumbers/Explanation.md)
+
+
+---
+# Explanation of Triangle:
+---
+
+This Java program calculates the area of a triangle using the formula: area = base x height / 2
+So, when you run this program, it will output the calculated area of the triangle with the given **base** and **height** values.
+
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/JAVA/Triangle/Explanation.md)
