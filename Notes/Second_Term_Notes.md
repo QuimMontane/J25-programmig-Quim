@@ -1,37 +1,44 @@
 ---
 # SECOND TERM NOTES
 ---
+
+---
+## VOCABULARY📚
+---
+- Pseudorandom: A pseudo-random number is a value produced through a procedure that seems to yield random results, yet it does not truly achieve randomness; rather, they 
+  are produced in a consecutive manner using a deterministic algorithm.
+- Pseudocode: It's a depiction of algorithmic steps that blends elements of programming language conventions with informal, often intuitive, representations of actions and 
+  conditions.
+- Parameter: It's a distinctive type of variable utilized within a function to point to one of the data elements supplied as input to the function.
+- Array: It's an aggregate of elements or information stored in adjacent memory spaces, also recognized as database systems.
+- Iteration: Reiterate concepts, albeit always presented in varied manners.
+- Implementation: It's the embodiment of a technical specification or algorithm into a program, software module, or another computer system via computer programming and 
+  deployment.
+- Extract a method: It involves isolating intricate code segments from a particular location and converting them into separate functions to simplify their complexity.
+
+
 ---
 ## Loops and iterations 
 ---
 
-**Repeat***
-
-**Iteration**: repeat things, but always of different things 
-
-**PSEUDOCODE**: In computer science, pseudocode is a description of the steps in an algorithm using a mix of conventions of programming languages with informal, usually 
-self-explanatory, notation of actions and conditions. 
-
+A loop or iteration is a control mechanism that permits a sequence of instructions to be executed multiple times. It empowers you to repeatedly execute a block of code until a specific condition is satisfied.
 **Name of variables to call a function**: Parameter, has to be a number
 
-```do while (eggs > 0){                 //condition
-
-    takeEgg();
-    
-    breakEgg();
-    
-    throwGarbage();
+```
+do while (eggs > 0){    //condition
+  takeEgg();
+  breakEgg();
+  throwGarbage();
 }
+```
 
-whisk(); //batir huevos
+**Example of an infinite loop:**
 
-do while (true){
-
-   climbMountainWithBoulder();
-   
-   seeHowTheBoulderFalls();
-   
-   goBackToTheBottomOfTheMountain();
+```
+do while (true) {
+  climbMountainWithBoulder();
+  seeHowTheBoulderFalls();    //infinite loop
+  goBackToTheBottomOfTheMountain();
 }
 ```
 
