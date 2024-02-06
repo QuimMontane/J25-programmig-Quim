@@ -24,7 +24,7 @@
 A loop or iteration is a control mechanism that permits a sequence of instructions to be executed multiple times. It empowers you to repeatedly execute a block of code until a specific condition is satisfied.
 **Name of variables to call a function**: Parameter, has to be a number
 
-```
+```c++
 do while (eggs > 0){    //condition
   takeEgg();
   breakEgg();
@@ -34,7 +34,7 @@ do while (eggs > 0){    //condition
 
 **Example of an infinite loop:**
 
-```
+```c++
 do while (true) {
   climbMountainWithBoulder();
   seeHowTheBoulderFalls();    //infinite loop
