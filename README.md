@@ -9,7 +9,7 @@ Repository for students of the course of Programming in 1st Batchillerato
 ---
 # [Markdown cheat Sheet](https://www.markdownguide.org/cheat-sheet)
 ---
-# [Notes](https://github.com/QuimMontane/J25-programmig-Quim/tree/main/Notes)
+# Notes
 ### [First Term](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Notes/First_Term_Notes.md)
 ### [Second Term](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Notes/Second_Term_Notes.md)
 ---
