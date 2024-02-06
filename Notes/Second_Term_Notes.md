@@ -178,9 +178,12 @@ bool isEqual = (greeting == name); // Evaluates to false
 
 
 ## String Manipulation
+
 Various functions are available for manipulating strings, such as finding substrings, replacing characters, and converting case.
+
+Example: **Converting to uppercase**
+
 ```C++
-// Example: Converting to uppercase
 std::transform(message.begin(), message.end(), message.begin(), ::toupper);
 ```
 
