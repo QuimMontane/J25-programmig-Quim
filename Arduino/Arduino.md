@@ -72,3 +72,12 @@ Five Nights at Freddy's. It then includes a delay of 1000 milliseconds (1 second
 repeated printing of newlines (\n) at the end serves to clear the Serial Monitor for better readability.
 
 [code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/MySpecialMessage/MySpecialMessage_Explanation.md)
+
+
+---
+# Explanation of HomeworkDefiningAFunction:
+---
+
+These are exercices for homework, they were to practice for the examen we were going to have next week, and our teacher saw that we didn't make a very great job defining functions, so firstly he explained how to do some excericies with examples, and then he provided some exercices for us. So in this exercices we had to define the functons by the explanation we were given.
+
+[code](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/HomeworkDefiningAFunction/Explanation.md)
