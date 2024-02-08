@@ -1,5 +1,7 @@
 ---
-# SECOND TERM NOTES
+# SECOND TERM NOTES👑🎭
+
+![02c4976b8fa5f01cefda3c644678347b](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/e8f62ef4-3890-440c-b16f-7046e28ddac8)
 ---
 
 ---
@@ -16,9 +18,10 @@
   deployment.
 - Extract a method: It involves isolating intricate code segments from a particular location and converting them into separate functions to simplify their complexity.
 
+![download](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/5a89bb51-314b-4b91-a9f7-eff81d6c2dd3)
 
 ---
-## Loops and iterations 
+## Loops and iterations🎢🔁
 ---
 
 A loop or iteration is a control mechanism that permits a sequence of instructions to be executed multiple times. It empowers you to repeatedly execute a block of code until a specific condition is satisfied.
@@ -32,7 +35,7 @@ do while (eggs > 0){    //condition
 }
 ```
 
-**Example of an infinite loop:**
+**Example of an infinite loop**:
 
 ```c++
 do while (true) {
@@ -56,9 +59,10 @@ For(“definition of variables”;”condition of iteration”;”step”){code}
  ```c++
  For(“definition of variables”;”condition of iteration”;”step”){codigo a repetir} 
 ```
+![v9E31q](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/a740de81-a686-47b2-9f98-5ea9b3a05c4d)
 
 ---
-## C++ --> Syntaxis
+## C++ --> Syntaxis📝
 ---
 
 **to call a function:**
@@ -74,7 +78,7 @@ nameOfFunction ( [type] parameter if necessaery, _){code...}
 ```
  
 ---
-## Modulus (reminder) 
+## Modulus (reminder) 📌📆
 ---
 
 ```c++
@@ -102,6 +106,7 @@ Ex.
 
 6%3=0 
 ```
+![download](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/ee2b5934-032e-4397-affd-5db91b54fab7)
 
 ---
 # Strings🕹
@@ -186,22 +191,21 @@ Example: **Converting to uppercase**
 ```C++
 std::transform(message.begin(), message.end(), message.begin(), ::toupper);
 ```
+![798edce6af1a9cc4446adf5e4b16399b](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/74ab8d35-3d17-4f43-b82e-a10b38c27ccb)
 
 
 ---
-# Arrays
+# Arrays⛓
 ---
 
----
+
 ## Definition:
----
 
 Variables that store several values in a specific order and don’t change un size, they also have very fast access, and the size of the array is relatively small.
 
 
----
+
 ## Important Concepts:
----
 
 - **Collection of elements**: Arrays in C++ are collections of elements of the same data type stored in contiguous memory locations.
 - **Index and value**: An element of an array will always have an index between 0 and n-1 being n: the length of the array.
@@ -211,6 +215,8 @@ Variables that store several values in a specific order and don’t change un si
 - **Declaration**: Arrays are declared using square brackets [] after the data type, specifying the size of the array.
 - **Memory management**: Memory for arrays is allocated statically or dynamically depending on how they are declared.
 - **Iteration**: Loops are commonly used to iterate through array elements for processing or manipulation.
+
+![68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4d73765654627275545f386464513d3d2d3437313832313434372e313465356436393937356666636331363235343131303031393733332e676966](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/df148d95-30d4-461b-bd73-ff29540f9584)
 
 
 ---
@@ -243,6 +249,8 @@ int sum = 0;
 int average = sum/6;
 Serial.println(average);
 ```
+![tumblr_o0r8muTL8m1u85z0co1_250](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/1a2233b9-69eb-4107-bf21-d0fd1d165dd0)
+
 
 ---
 ## Arrays using Int for real life examples
@@ -280,10 +288,24 @@ int min = grades[0];
 Serial.println(min); 
 } 
 ```
+![que-rollo](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/bd24ca01-4cb6-4348-8881-719d2a0bffbd)
 
 
+---
+# TONE🔊🎧🎶
+---
+Tone is a function used in C++ to make a vibration/sound with a specific frecuency and the suration you prefer, on a specific pin. To call this function we need to do:
 
+```c++
+tone(pinNumber, frecuency, duration);
+delay(duration+25);
+noTone(pinNumber);
+```
 
+## Diference between **definde** and **int**:
 
+```c++ #define PATATA = 33 ``` (It is not a variable, it is an instruction for the compiler, it does not take up that much) 
 
+```c++ const int PATATA = 33  ``` (variable that takes up space in memory) 
 
+![Un-puñado-de-curiosos-y-divertidos-GIFs-sobre-la-Navidad-Felices-Fiestas1](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/6d2b4063-dfd3-453b-bf59-c15ad855b758)
