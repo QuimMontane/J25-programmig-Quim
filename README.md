@@ -14,6 +14,8 @@ Repository for students of the course of Programming in 1st Batchillerato
 ### [Second Term](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Notes/Second_Term_Notes.md)
 ---
 # [Explanations](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Arduino.md)
+### [Explanations C++](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Arduino.md#explanations-c)
+### [Explanations Java](https://github.com/QuimMontane/J25-programmig-Quim/blob/main/Arduino/Arduino.md#explications-java)
 ---
 # [Project](https://github.com/QuimMontane/J25-programmig-Quim/tree/main/Arduino/Wrap-Up_Project)
 ---
