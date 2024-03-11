@@ -7,12 +7,12 @@ Water
 	- String: DeliveryAdress
 	- int: BottleSize
 	- String: DeliveryDate
-	- Bool: PaymentStatus
+	- boolean: PaymentStatus
 	
 2) Supermarket:
 	Water Bottle	
 	- String: Brand
-	- int: Volume
+	- double: Volume
 	- double: Price
 	- String: ExpirationDate
 	- int: QualityInStock
