@@ -1,7 +1,7 @@
 // findAuthorInLibrary
-public Book findAuthorInLibrary(boolean author){
+public boolean findAuthorInLibrary(String author){
         for (int i = 0; i < library.length ;i ++) {
-            if(library[i].getAuthor().equals(Author)) {
+            if(library[i].getAuthor().equals(author)) {
                 return true;
             }            
         }
