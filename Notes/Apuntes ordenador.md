@@ -38,11 +38,11 @@
 
     - Pasta Térmica
     
-    ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/51e0a155-2736-4746-8cf2-a665e13d7848)
+![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/51e0a155-2736-4746-8cf2-a665e13d7848)
 
     - Ventilador
 
-    ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/c08b9a4e-57c7-4b51-b456-3f489499e712)
+![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/c08b9a4e-57c7-4b51-b456-3f489499e712)
 
     - Pieza Metálica
 
