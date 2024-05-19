@@ -22,6 +22,7 @@ Parameters are variables that are inputted into methods.
 **Modularity:** Modularity in Java refers to the ability to organize code into separate, self-contained units for easier maintenance and scalability. 
 
 An **example** could be the Lego bricks: 
+
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/0c2ecccc-afcf-42cf-bbea-9d8591f839ec)
 
 
@@ -39,6 +40,7 @@ We are going to work mainly with 2
 - public: Every part of the code can access to it. 
 
 Here you have more information: 
+
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/23ec3d65-f2f9-4b3a-87e0-3801a589c67c)
 
 
@@ -86,12 +88,14 @@ Pregunta de examen/definiciones:
 **Final:** El valor de la variable no se va a cambiar dentro del programa. 
 
 **The typical object in Java:** 
+
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/6aa1fb5f-80cf-472c-95f0-718abc8524f6)
 
 
 ## Class Object made in class: 
 
 **Examples** of **getters** and **setters**: 
+
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/0d849a58-8c98-4eda-9691-b95fee832833)
 
 
@@ -113,6 +117,7 @@ SmallerSide: parameter
 
 
 **Example of a constructor:** 
+
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/cd51d4de-d4a3-4ae5-96eb-b990056d7e16)
 
 
@@ -299,11 +304,13 @@ Java y C++ tienen más encapsulación que JavaScript, Python
     - La clase B puede usar métodos **privados** 
 
 **Multiplicidades:** When we have objects that aggregate between each other we can have different numbers of “How many objects in A has a B” the short table is this: 
+
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/03378881-e9cf-4c12-aa44-fa388ab256fe)
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/2f014de7-022e-4b65-baff-2f8f2706247a)
 
 
 **Inheritance:** Also called in java “extension” because we use “class A extrends B” 
+
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/9a319564-052d-4e7a-b8ff-64013f6bcd03)
 
 
