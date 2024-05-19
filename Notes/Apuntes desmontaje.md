@@ -59,10 +59,15 @@ Una fuente de energía opera transformando la potencia de una toma de corriente 
 conductos eléctricos.
 
 Hay diversas variedades de fuentes de energía para computadoras, categorizadas según su tamaño o diseño, como ATX, SFX, SFX-L, TFX y Flex ATX.
+
 •	**ATX** (Advanced Technology eXtended) 
+
 •	**SFX** (Small Form Factor) 
+
 •	**SFX-L** (SFX Large) 
+
 •	**TFX** (Thin Form Factor) 
+
 •	**Flex ATX**
 
 En mi situación, opto por la ATX, reconocida por ser el estándar más extendido entre las fuentes de energía, con unas dimensiones aproximadas 
@@ -207,8 +212,10 @@ Por otro lado, el ordenador de mi compañero SpaikyJordi está equipado con una 
 diseñada específicamente para gaming. Esta potente tarjeta gráfica se utiliza para procesar las imágenes de los juegos con alto rendimiento y calidad.
 
 Existen dos tipos de GPU: las integradas y las dedicadas.
+
 •	Las GPU dedicadas comparten recursos con la CPU y la memoria del sistema, lo que implica que utilizan la misma memoria RAM que el procesador 
   y otros componentes, resultando en un rendimiento más lento. Son más comunes en dispositivos como portátiles y móviles. 
+
 •	Por otro lado, las GPU integradas cuentan con su propia memoria VRAM dedicada y procesadores gráficos especializados. 
   Están diseñadas para ofrecer un rendimiento gráfico superior en comparación con las GPU integradas.
 
@@ -221,16 +228,22 @@ Una tarjeta de red es un componente que se inserta en un ordenador para facilita
 puede disponer en su parte posterior de un puerto para conectar un cable Ethernet o para la conexión inalámbrica.
 
 Existen varios tipos de tarjetas de red:
+
 •	**Ethernet:** Estas tarjetas cuentan con un puerto que utiliza el estándar 8P8C y el conector RJ45.
+
 •	**Token Ring:** Este tipo de tarjetas cayó en desuso debido a su costo relativamente alto en comparación con otras opciones.
+
 •	**Arcnet:** Aunque fueron creadas en los años 80, dejaron de ser utilizadas debido a su velocidad de conexión significativamente más baja que la de Ethernet.
+
 •	**PCMCIA:** Estas tarjetas se insertan en la placa base de los ordenadores portátiles y generalmente no incluyen una antena.
 
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/5987af48-1901-483b-bd11-faf5e595d988)
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/fce38e05-a66c-4908-8468-02e585fc2e70)
 
 Tipos de puertos: 
+
 •	RJ45: Este es el estándar más popular y ofrece una conexión muy estable. 
+
 •	BNC: Se conecta y desconecta fácilmente y se utiliza para cables coaxiales. 
 
 
