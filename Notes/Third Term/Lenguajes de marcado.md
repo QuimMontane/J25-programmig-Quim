@@ -21,9 +21,16 @@ Los lenguajes de marcado clasifican la información en etiquetas.
 
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/19f5ede5-f5a7-4140-88e5-29ed0e3e5455)
 
+
+Asi se ve mi primera web por dentro: 
+
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/a1daa4f0-c5b2-4e6e-bdc8-5e47576de9f8)
 
+
+Asi se ve la web desde fuera:
+
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/cb04be13-77a4-43a2-b603-615dc5ec365c)
+
 
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/2923c810-b0a9-41da-b022-e1a591fc3cc8)
 
