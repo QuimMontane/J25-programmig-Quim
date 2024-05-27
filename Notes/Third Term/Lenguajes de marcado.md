@@ -23,6 +23,8 @@ Los lenguajes de marcado clasifican la información en etiquetas.
 
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/a1daa4f0-c5b2-4e6e-bdc8-5e47576de9f8)
 
+![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/cb04be13-77a4-43a2-b603-615dc5ec365c)
+
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/2923c810-b0a9-41da-b022-e1a591fc3cc8)
 
 Páginas web: (estática o dinámica)
