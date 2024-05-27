@@ -11,7 +11,7 @@ Esquema Von Neumann:
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/b7848033-53ad-4737-a6e1-c19add80e02d)
 
 
-Tipos de computadoras:
+**Tipos de computadoras:**
 
 -	Servidor
 
@@ -44,13 +44,13 @@ Una nevera está controlada por un microcontrolador, un microcontrolador es una 
 -	Calculadoras 
 
 
-Ordenadores más complejos
+**Ordenadores más complejos**
 
 •	Por varias capas (Placas) de hardware ->  rasBerry Pi (Es un ordenador más sencillo, puede servir como servidor)
 
 •	Varias capas de Software
 
-Recursos de un ordenador:
+**Recursos de un ordenador:**
 
 •	Capacidades de procesado
 
@@ -58,7 +58,7 @@ Recursos de un ordenador:
 
 •	Ancho de banda – velocidad de comunicación
 
-Capacidad de procesado
+**Capacidad de procesado**
 
 •	CPU-> Central Processing Unit
 
@@ -220,7 +220,7 @@ There are several types of Primary memory. Mainly we have RAM (Random Access Mem
 
 •	ROM: solo puede leer instrucciones, no puede escribir.
 
-•	CACHE:
+•	CACHE: in Hardware: elements that are between the CPU and RAM, to store the elements we use most frequently.
   
   •	Hardware: elementos que están entre la CPU y la RAM, para guardar los elementos que utilizamos con mayor frecuencia.
   
