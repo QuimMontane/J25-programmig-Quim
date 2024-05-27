@@ -1,6 +1,11 @@
 ---
 # Lenguajes de marcado
 ---
+## ¿Qué son?
+
+Son un tipo de lenguaje informático que utiliza etiquetas o códigos para anotar o "marcar" elementos dentro de un documento digital para definir su estructura, formato o presentación. 
+
+El marcado en sí suele consistir en un conjunto de etiquetas o códigos predefinidos que están incrustados en el texto del documento. Estas etiquetas describen la estructura del documento (como títulos, párrafos, listas, etc.) y especifican cómo se deben mostrar varios elementos (como el tamaño de fuente, el color, la alineación, etc.).
 
 Los lenguajes de marcado clasifican la información en etiquetas.
 
