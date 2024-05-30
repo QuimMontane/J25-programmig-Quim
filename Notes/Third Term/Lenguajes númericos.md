@@ -15,7 +15,7 @@ Y un byte son 8 bites, 1 byte = 28 posibilidades
 8 bits = 1 byte = B (28 posibles valores)
 
 
-**Multiplos:**
+## Multiplos:
 
 1 KByte = 1 kB = 1024 bytes (210 Bytes)
 
@@ -56,7 +56,7 @@ El resto de una división es el último digito del número binario
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/5cf2f06f-6f5e-47be-bbd2-7cd8c576e017)
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/52420e1c-3d9b-4183-bcc3-7d70a9e4a332)
 
-Ventajas e inconvenientes (respecto al decimal):
+## Ventajas e inconvenientes (respecto al decimal):
 
   •	Es fácil hacer un circuito electrónico binario 
 
