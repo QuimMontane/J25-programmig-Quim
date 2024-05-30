@@ -26,13 +26,13 @@ An **example** could be the Lego bricks:
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/0c2ecccc-afcf-42cf-bbea-9d8591f839ec)
 
 
-**Encapsulation:**
+## Encapsulation:
 One way to achieve the best modularity is by restricting the access to methods or variables that are in objects so only the objects themselves are in charge of changing 
 those values or interact with them. 
 
 **URL:** Only admit characters from the English alphabet, it doesn’t accept “ç, ñ, ó…” 
 
-**Access modifiers** 
+## Access modifiers
 
 We are going to work mainly with 2 
 
@@ -44,7 +44,7 @@ Here you have more information:
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/23ec3d65-f2f9-4b3a-87e0-3801a589c67c)
 
 
-**Instanciation:**  
+## Instanciation: 
 
 The concept of instanciation is how we have "**blueprints**" and "**instances**". Each of the instances has or may have different attributes. 
 
@@ -71,7 +71,7 @@ specific vehicles that are a Volvo, a Mercedes, a Dacia or a Toyota
 
 Pregunta de examen/definiciones: 
 
-**Static method/variable:**  
+## Static method/variable:  
 - variable que esta definida en el mapita de la clase, siemre va estar en meoria y solo tendremos 1 que se comparte entre todos los elementos. 
 - Hay **dos tipos:**  
     - **Final** – constants variables 
@@ -87,7 +87,7 @@ Pregunta de examen/definiciones:
 
 **Final:** El valor de la variable no se va a cambiar dentro del programa. 
 
-**The typical object in Java:** 
+## The typical object in Java: 
 
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/6aa1fb5f-80cf-472c-95f0-718abc8524f6)
 
@@ -116,13 +116,13 @@ SmallerSide: parameter
 
 
 
-**Example of a constructor:** 
+## Example of a constructor:
 
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/cd51d4de-d4a3-4ae5-96eb-b990056d7e16)
 
 
 
-**Ejercicio de Java:** 
+## Ejercicio de Java: 
 
 Book:  
 
@@ -147,7 +147,7 @@ Coches (Un concesionario, juegos de coches)
 
  
 
-**Book:** 
+## Book: 
 
 Context of **library** 
 
@@ -206,7 +206,7 @@ Context of **Minecraft**
  
 
  
-
+## Car
 Context of **Car**: 
 
     double: price 
