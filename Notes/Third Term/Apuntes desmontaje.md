@@ -51,9 +51,9 @@
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/18194eb0-0484-46f9-afd0-448f552f0cae)
 
 
-## Identificación de los elementos que componen la máquina:
+# Identificación de los elementos que componen la máquina:
 
-### Fuente de alimentación:
+## Fuente de alimentación:
 
 Una fuente de energía opera transformando la potencia de una toma de corriente y dirigiéndola hacia cada elemento específico dentro del sistema mediante distintos 
 conductos eléctricos.
@@ -80,7 +80,7 @@ Como se puede ver en la imagen de arriba, su capacidad máxima es de 300 W y su 
 
 
 
-### Placa base:
+## Placa base:
 
 La placa base representa uno de los componentes fundamentales al ensamblar un equipo informático. 
 En ella se enlazan la memoria RAM, la CPU, los discos duros y la fuente de energía, elementos vitales para el funcionamiento óptimo de una computadora. 
@@ -94,7 +94,7 @@ Mi placa base es la de la imagen de abajo, y es del año 2015. Sus especificacio
 
 
  
-### CPU (microprocesador):
+## CPU (microprocesador):
 
 El microprocesador, también conocido como CPU (Unidad Central de Procesamiento), es el núcleo esencial que ejecuta las operaciones. 
 Funciona como el centro de control de la computadora, distribuyendo datos a todos sus componentes.
@@ -116,7 +116,7 @@ En este enlace se encuentra para comprarlo o por si quiere ver sus característi
 (https://www.ebay.es/itm/144148563607)
 
 
-### RAM:
+## RAM:
 
 La memoria RAM es como la despensa de almacenamiento temporal en un dispositivo. Cuando abres una aplicación, 
 el sistema operativo la coloca en la RAM para que esté accesible de forma rápida durante su uso. 
@@ -133,7 +133,7 @@ que retienen los datos incluso cuando se interrumpe la corriente eléctrica.
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/3688b7f6-8924-415d-a1fd-667b8b085084)
 
 
-Los diferentes tipos de RAM o memoria de acceso aleatorio:
+## Los diferentes tipos de RAM o memoria de acceso aleatorio:
  
 1.	DRAM (Dynamic Random Access Memory): Es el tipo más común de memoria RAM. Se utiliza en la mayoría de las computadoras y dispositivos electrónicos.
    La memoria DRAM necesita ser refrescada periódicamente para mantener los datos, ya que almacena la información en forma de carga eléctrica en condensadores.
@@ -178,7 +178,7 @@ Los diferentes tipos de RAM o memoria de acceso aleatorio:
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/2a2f2ff4-8b58-43f2-93f2-9e397eb407ef)
 
 
-Diferencia entre DDR4 SDRAM y DDR5 SDRAM:
+## Diferencia entre DDR4 SDRAM y DDR5 SDRAM:
 
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/6e47b2ea-02d4-4622-8af4-7f8ef29d6481)
 
@@ -186,7 +186,7 @@ Cada tipo de RAM tiene características en cuanto a velocidad, capacidad y consu
 lo que los hace adecuados para diferentes aplicaciones y requerimientos de rendimiento.
 
 
-### Disco duro:
+## Disco duro:
 
 Los datos de un ordenador se almacenan en el disco duro (HDD). Sin embargo, en la última década, han surgido los discos de estado sólido (SSD). 
 Aunque los HDD son más lentos que los SSD, algunos prefieren los HDD porque creen que son más seguros.
@@ -198,7 +198,7 @@ Esto libera espacio para otros componentes o permite la construcción de PCs má
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/5a47c655-e8a2-4497-8331-aa9070caaba0)
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/a81c65dd-4e80-4a5c-ba4b-4e9614dd4794)
 
-### Tarjeta gráfica (GPU):
+## Tarjeta gráfica (GPU):
 
 Una tarjeta gráfica, también conocida como unidad de procesamiento gráfico (GPU), es responsable de procesar y representar imágenes, 
 vídeos y gráficos en la pantalla del ordenador, principalmente mediante el cálculo rápido de triángulos.
@@ -222,7 +222,7 @@ Existen dos tipos de GPU: las integradas y las dedicadas.
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/95c022fe-3e2e-42c6-9846-f21780a555ba)
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/e3396a96-e381-47a6-8863-a31d8934996f)
 
-### Tarjeta PCI:
+## Tarjeta PCI:
 
 Una tarjeta de red es un componente que se inserta en un ordenador para facilitar su conexión a Internet. Dependiendo del tipo de tarjeta, 
 puede disponer en su parte posterior de un puerto para conectar un cable Ethernet o para la conexión inalámbrica.
@@ -240,7 +240,7 @@ Existen varios tipos de tarjetas de red:
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/5987af48-1901-483b-bd11-faf5e595d988)
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/fce38e05-a66c-4908-8468-02e585fc2e70)
 
-Tipos de puertos: 
+## Tipos de puertos: 
 
 •	RJ45: Este es el estándar más popular y ofrece una conexión muy estable. 
 
@@ -252,7 +252,7 @@ Multigigabit:
  Los puertos Multigigabit se adaptan a velocidades de 100 Mbps, 1 Gbps, 2,5 Gbps y 5 Gbps. 
  Son compatibles con versiones anteriores como Gigabit y admiten la conexión mediante cables CAT5e y CAT6.
 
-### SSD (extra info):
+## SSD (extra info):
 
 Un SSD es un medio de almacenamiento que, a diferencia de los discos duros, emplea memoria no volátil (Flash) para almacenar y recuperar datos, 
 sin partes mecánicas involucradas.
@@ -274,7 +274,7 @@ Como sabemos que el elemento más nuevo usado en este PC, es del 2017, como hemo
 los elementos que hay en este PC, podemos suponer que el PC es del año 2017-2018.
 
 
-## Proceso de reensamblado:
+# Proceso de reensamblado:
 1)	Montar la RAM
    a.	Abrir las palanquitas que hemos visto antes a la hora de desmontar la RAM.
    b.	Colocar dentro la RAM de manera que quede como se ve en pantalla y que se quede fijada, que no se caiga o se mueva si el ordenador se mueve o se agita.
