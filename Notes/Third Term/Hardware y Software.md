@@ -2,7 +2,7 @@
 # Hardware y Software
 ---
 
-Esquema Von Neumann:
+## Esquema Von Neumann:
 
   •	Input de datos --> procesador --> output
     
@@ -11,7 +11,7 @@ Esquema Von Neumann:
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/b7848033-53ad-4737-a6e1-c19add80e02d)
 
 
-**Tipos de computadoras:**
+## Tipos de computadoras:
 
 -	Servidor
 
@@ -44,13 +44,13 @@ Una nevera está controlada por un microcontrolador, un microcontrolador es una 
 -	Calculadoras 
 
 
-**Ordenadores más complejos**
+## Ordenadores más complejos
 
 •	Por varias capas (Placas) de hardware ->  rasBerry Pi (Es un ordenador más sencillo, puede servir como servidor)
 
 •	Varias capas de Software
 
-**Recursos de un ordenador:**
+## Recursos de un ordenador:
 
 •	Capacidades de procesado
 
@@ -58,16 +58,16 @@ Una nevera está controlada por un microcontrolador, un microcontrolador es una 
 
 •	Ancho de banda – velocidad de comunicación
 
-**Capacidad de procesado**
+## Capacidad de procesado
 
 •	CPU-> Central Processing Unit
 
 •	GPU-> Graphic Processing Unit
 
 
-### Inputs y Outputs en la Informática
+## Inputs y Outputs en la Informática
 
-**Input (Entrada):**
+## Input (Entrada):
 
 •	Potenciómetro
 
@@ -102,7 +102,7 @@ Una nevera está controlada por un microcontrolador, un microcontrolador es una 
 •	Radiofrecuencia
 
 
-**Output (Salida):**
+## Output (Salida):
 
 •	Pantalla
 
@@ -119,7 +119,7 @@ Una nevera está controlada por un microcontrolador, un microcontrolador es una 
     - Vibración
 
 
-**INPUT Y OUTPUT:**
+## INPUT Y OUTPUT:
 
 •	Comunicación
 
@@ -135,7 +135,7 @@ Una nevera está controlada por un microcontrolador, un microcontrolador es una 
 
 
 
-### Apuntes Torre:
+# Apuntes Torre:
 
 •	Fuente de alimentación
 
@@ -237,7 +237,7 @@ There are several types of Primary memory. Mainly we have RAM (Random Access Mem
             - MDR
 
 
-### Memory Architectures:
+## Memory Architectures:
 
 •	2 main architectures.
 
