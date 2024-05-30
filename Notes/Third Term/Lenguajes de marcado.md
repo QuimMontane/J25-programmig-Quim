@@ -34,7 +34,9 @@ Asi se ve la web desde fuera:
 
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/2923c810-b0a9-41da-b022-e1a591fc3cc8)
 
-Páginas web: (estática o dinámica)
+## Páginas web: 
+
+(estática o dinámica)
 
 Suele estar dividida en 3 tipos de archivos
 
@@ -61,9 +63,9 @@ Suele estar dividida en 3 tipos de archivos
           - tiene bucles, objetos, funciones, etc...
 
 
-Redes:
+# Redes:
 
-Arquitectura:
+## Arquitectura:
 
     •	Cliente-servidor
 
@@ -101,7 +103,7 @@ youtube.com  --> dominio
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/7158fe71-0745-4f98-9e1d-c5877de1c928)
 
 
-Para traducir:
+## Para traducir:
    
     •	Dominios con IP necesitas un DNS
     
@@ -110,7 +112,7 @@ Para traducir:
           - Listado de dominios con sus IP
 
 
-Páginas web estáticas y dinámicas: (pregunta examen)
+## Páginas web estáticas y dinámicas: (pregunta examen)
 
 •	Estática: 
   
@@ -132,7 +134,7 @@ Páginas web estáticas y dinámicas: (pregunta examen)
           
           - PHP(lavable)
 
-Redes:
+## Redes:
 
     •	Internet 
     
@@ -143,7 +145,7 @@ Redes:
           - Recursos (software, datos) almacenados en internet
 
 
-Wi-fi:
+## Wi-fi:
 
 Ordenador --> AP (Access point) --> Router --> ISP (Internet service provider) --> Servidor DNS --> Servidor(Google o lo que hayas buscado)
 
@@ -152,25 +154,25 @@ Ordenador, AP, Router: red locas (wifi/lo que es fisico)
 ISP,DNS, Servidor: lo que no es físico
 
 
-Arquitectura:
+## Arquitectura:
        
        Servidor-cliente, Server-client- --> Como se conecta y comunican dos máquinas (o mas)
        
-Esquema:
+## Esquema:
 
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/1c375306-f0fe-4973-8b6e-8dac8e817fd8)
 
 No solo en internet sino aplicable a otras conexiones
 
 
-Brawl Stars:
+## Brawl Stars:
 
-Diagrama:
+## Diagrama:
 
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/af6dd4a3-73b3-4180-8252-23c47b2cb8eb)
 
 
-Arquitectura
+## Arquitectura
 
   •	P2P
    
@@ -189,7 +191,7 @@ Arquitectura
       - Cliente y servidor a la vez
 
 
-Hardware de redes
+## Hardware de redes
   
   •	Acces point --> Solo wifi
   
@@ -200,13 +202,13 @@ Hardware de redes
         - Puerta de enlace entre redes
 
 
-Wifi
+## Wifi
  
   •	Señal por aire
 
 
 
-Protocolo
+## Protocolo
   
   •	Reglas y convenciones
      
@@ -221,46 +223,46 @@ Protocolo
   •	Funciona con los certificados SSL
 
 
-CGI: Common Gateway Interface (Pregunta a otras cosas que tiene que responder)
+**CGI:** Common Gateway Interface (Pregunta a otras cosas que tiene que responder)
 
-BBDD: Bases de datos
+**BBDD:** Bases de datos
 
-Web dinámica:
+## Web dinámica:
 
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/6971a17b-fc30-4db4-b215-3090002c1b56)
 
-Fullstack: Una persona que se puede dedicar al front end u back end
+**Fullstack:** Una persona que se puede dedicar al front end u back end
 
 La generación del HTML se fabrica a raíz del CGI, se procederá a crear el código de HTML, por ejemplo (ver un video de YouTube), 
 y este código se devolverá a el servidor web y mandado al cliente. 
 
 
-Web estática:
+## Web estática:
 
 ![image](https://github.com/QuimMontane/J25-programmig-Quim/assets/144990948/93ba6eec-0274-415c-8e91-2ab47bc5db5b)
 
 
-Ejemplos de webs estáticas: 
+## Ejemplos de webs estáticas: 
 
 
-Webb de spacejam:
+## Webb de spacejam:
 
 https://www.spacejam.com/1996/jam.htm
 
 
-Webb de David Prieto:
+## Webb de David Prieto:
 
 https://fabacademy.org/2020/labs/barcelona/students/david-prieto/
 
 
 
-IT:
+## IT:
   
   •	Informática
   
   •	Telecomunicaciones
 
-Desarrollo y Mantenimiento (de software):
+## Desarrollo y Mantenimiento (de software):
     
     •	Project Manager
   
@@ -297,7 +299,7 @@ Desarrollo y Mantenimiento (de software):
             - System operative
 
 
-Sistemas
+## Sistemas
   
   •	DBA (data base admin)
     
@@ -317,7 +319,7 @@ Sistemas
 
 
 
-3D 
+## 3D 
   
   •	Modelers
   
@@ -330,7 +332,7 @@ Sistemas
         - Efectos especiales, CGI
 
 
-Entornos
+## Entornos
   
   •	Solo lo pueden ver los desarrolladores
   
